@@ -1,6 +1,30 @@
 <html>
   <head>
       <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+    <style>
+      .column{
+        float: left;
+        padding: 10px;
+        height: 300px;
+      }
+      .left{
+        width: 75%;
+      }
+      .right{
+        width: 25%
+          border-left-style: inset;
+      }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+      .right p{
+        background-color: aquamarine;
+        padding: 20px;
+      }
+      </style>
   </head>
   <body>
     <header>
@@ -9,20 +33,20 @@
       </a>
         <h1>The Fandom Shop!</h1></center>
     </header>
-    <nav>
+    <br>
+    <div class="column left" style="background-color:#aaa>
+         <nav>
       <ul>
         <li><a href="shop.html">Shop</a></li>
         <li><a href="fandoms.html">Fandoms</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
-    </nav>
-    <br>
-    <center><h2> About Us!</h2></center>
-    <li>The company was created in January of 2019</li>
-    <li>The store is made to bring the price of a library, and the quality of a bookstore toghether!</li>
-    <div class="column left" style="background-color:#aaa>
+    </nav>                                
     </div>
     <div class="column right" style="background-color:#bbb>
+      <center><h2> About Us!</h2></center>
+    <li>The company was created in January of 2019</li>
+    <li>The store is made to bring the price of a library, and the quality of a bookstore toghether!</li>
     </div>
 
     
