@@ -6,10 +6,10 @@ width: 640px;
 nav ul{
   clear: both;
 }
-nav li{
+<center>nav li{
   list-style-type:none;
   display: inline;
-  padding-left: 40px;
+  padding-left: 40px;</center>
 }
 a:link{
   text-decoration: none;
